@@ -1,0 +1,7 @@
+### Accident Severity Summary (2020)
+
+| severity   |   count |   pct |
+|:-----------|--------:|------:|
+| Fatal      |    1391 |   1.5 |
+| Serious    |   18355 |  20.1 |
+| Slight     |   71453 |  78.3 |

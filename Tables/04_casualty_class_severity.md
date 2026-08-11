@@ -1,0 +1,7 @@
+### Casualties by Class and Severity (2020)
+
+| class        |   Fatal |   Serious |   Slight |
+|:-------------|--------:|----------:|---------:|
+| Driver/Rider |     916 |     13519 |    64895 |
+| Passenger    |     198 |      2678 |    18628 |
+| Pedestrian   |     346 |      3905 |    10499 |
