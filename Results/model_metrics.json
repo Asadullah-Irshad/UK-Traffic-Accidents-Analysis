@@ -1,0 +1,16 @@
+{
+  "model": "Logistic Regression (balanced, numpy)",
+  "target": "fatal accident (severity = Fatal)",
+  "n_train": 2225,
+  "n_test": 557,
+  "accuracy": 0.666,
+  "precision": 0.658,
+  "recall": 0.576,
+  "f1": 0.614,
+  "confusion_matrix": {
+    "TN": 223,
+    "FP": 77,
+    "FN": 109,
+    "TP": 148
+  }
+}

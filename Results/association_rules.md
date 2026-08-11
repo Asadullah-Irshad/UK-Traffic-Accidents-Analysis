@@ -1,0 +1,29 @@
+### Top Association Rules (Apriori, min support 0.05, lift > 1)
+
+| antecedent                         | consequent                         |   support |   confidence |   lift |
+|:-----------------------------------|:-----------------------------------|----------:|-------------:|-------:|
+| weather=Raining                    | surface=Wet, urban_rural=Urban     |     0.082 |        0.641 |  3.529 |
+| surface=Wet, urban_rural=Urban     | weather=Raining                    |     0.082 |        0.452 |  3.529 |
+| weather=Raining                    | speed=30mph, surface=Wet           |     0.068 |        0.534 |  3.424 |
+| speed=30mph, surface=Wet           | weather=Raining                    |     0.068 |        0.438 |  3.424 |
+| weather=Raining                    | severity=Slight, surface=Wet       |     0.099 |        0.775 |  3.409 |
+| severity=Slight, surface=Wet       | weather=Raining                    |     0.099 |        0.437 |  3.409 |
+| weather=Raining                    | light=Daylight, surface=Wet        |     0.069 |        0.536 |  3.364 |
+| light=Daylight, surface=Wet        | weather=Raining                    |     0.069 |        0.431 |  3.364 |
+| speed=30mph, weather=Raining       | surface=Wet                        |     0.068 |        0.972 |  3.335 |
+| surface=Wet                        | speed=30mph, weather=Raining       |     0.068 |        0.234 |  3.335 |
+| urban_rural=Urban, weather=Raining | surface=Wet                        |     0.082 |        0.969 |  3.326 |
+| surface=Wet                        | urban_rural=Urban, weather=Raining |     0.082 |        0.282 |  3.326 |
+| weather=Raining                    | surface=Wet                        |     0.124 |        0.968 |  3.321 |
+| severity=Slight, weather=Raining   | surface=Wet                        |     0.099 |        0.968 |  3.321 |
+| surface=Wet                        | weather=Raining                    |     0.124 |        0.425 |  3.321 |
+| surface=Wet                        | severity=Slight, weather=Raining   |     0.099 |        0.34  |  3.321 |
+| light=Daylight, weather=Raining    | surface=Wet                        |     0.069 |        0.964 |  3.308 |
+| surface=Wet                        | light=Daylight, weather=Raining    |     0.069 |        0.235 |  3.308 |
+| light=Daylight, speed=60mph        | urban_rural=Rural                  |     0.088 |        0.967 |  2.967 |
+| urban_rural=Rural                  | light=Daylight, speed=60mph        |     0.088 |        0.271 |  2.967 |
+| speed=60mph                        | light=Daylight, urban_rural=Rural  |     0.088 |        0.698 |  2.966 |
+| light=Daylight, urban_rural=Rural  | speed=60mph                        |     0.088 |        0.375 |  2.966 |
+| speed=60mph                        | urban_rural=Rural                  |     0.122 |        0.965 |  2.962 |
+| urban_rural=Rural                  | speed=60mph                        |     0.122 |        0.374 |  2.962 |
+| speed=60mph, surface=Dry           | urban_rural=Rural                  |     0.073 |        0.965 |  2.961 |
